@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trichy Coaching Centers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Trichy Coaching Centers</h1>
+    <p>Complete List of Skill & Training Centers</p>
+</header>
+
+<nav>
+    <button onclick="filterInstitutes('all')">All</button>
+    <button onclick="filterInstitutes('software')">Software</button>
+    <button onclick="filterInstitutes('technical')">Technical</button>
+    <button onclick="filterInstitutes('iti')">ITI</button>
+    <button onclick="filterInstitutes('other')">Other</button>
+
+    <input type="text" id="searchInput" placeholder="Search Institutes..." onkeyup="searchInstitutes()">
+</nav>
+
+<section class="section">
+    <div id="instituteList" class="grid"></div>
+</section>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modalName"></h2>
+        <p id="modalDetails"></p>
+        <p id="modalCategory"></p>
+        <div id="modalImages" class="modal-images"></div>
+    </div>
+</div>
+
+
+
+<footer>
+    <p>© 2025 Training Institutes – Trichy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

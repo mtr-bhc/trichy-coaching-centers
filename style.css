@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0052cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: #0052cc;
+    color: white;
+}
+
+.section {
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0052cc;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: #0052cc;
+    color: white;
+}
+
+nav input[type="text"] {
+    margin-left: 10px;
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    min-width: 200px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.close {
+    color: #333;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #0052cc;
+}
+
+.modal-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.modal-images img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.modal-images img:hover {
+    transform: scale(1.1);
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+    
+    /* Nav buttons + search stacked */
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav button, nav input[type="text"] {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    /* Cards take full width */
+    .grid {
+        grid-template-columns: 1fr; /* single column on mobile */
+    }
+
+    /* Modal content smaller on mobile */
+    .modal-content {
+        width: 95%;
+        margin: 20% auto;
+        padding: 15px;
+    }
+
+    /* Modal images smaller but visible */
+    .modal-images img {
+        width: 140px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modal-images img {
+        width: 120px;
+        height: 90px;
+    }
+
+    nav button, nav input[type="text"] {
+        font-size: 14px;
+        padding: 7px 10px;
+    }
+}
