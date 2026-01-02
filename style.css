@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f4f4;
+    background-image: url("27725-365890983_tiny.jpg");
+    
 }
 
 header {
     background: #0052cc;
+    opacity: 0.9;
     color: white;
     text-align: center;
     padding: 20px;
@@ -14,6 +16,7 @@ header {
 nav {
     background: #333;
     text-align: center;
+    opacity: 0.9;
     padding: 10px;
 }
 
@@ -38,11 +41,15 @@ nav button {
 
 .card {
     background: white;
+    opacity: 0.9;
     padding: 15px;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.card:hover{
+    transform: scale(1.1);
+}
 .card h3 {
     margin-top: 0;
     color: #0052cc;
@@ -50,9 +57,11 @@ nav button {
 
 footer {
     background: #222;
+    opacity: 0.8;
     color: white;
     text-align: center;
     padding: 10px;
+    align-items: center;
 }
 nav {
     background: #333;
@@ -62,6 +71,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 nav button {

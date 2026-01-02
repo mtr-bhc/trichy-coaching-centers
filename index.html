@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-    <h1>Trichy Coaching Centers</h1>
+    <h1>--- Trichy Coaching Centers ---</h1>
     <p>Complete List of Skill & Training Centers</p>
 </header>
 
@@ -25,17 +24,25 @@
 <section class="section">
     <div id="instituteList" class="grid"></div>
 </section>
+<span class="close" onclick="closeModal(event)">&times;</span>
+
 
 <!-- Modal -->
 <div id="modal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
+
         <h2 id="modalName"></h2>
         <p id="modalDetails"></p>
         <p id="modalCategory"></p>
+
+        <!-- Address -->
+        <p id="modalAddress"></p>
+
         <div id="modalImages" class="modal-images"></div>
     </div>
 </div>
+
 
 
 
