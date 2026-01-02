@@ -59,14 +59,14 @@ const institutes = [
     name: "Kavin Typewriting Institute",
     category: "other",
     details: "Typewriting & Typing Skill Training",
-    images:["kav1.jpeg"],
+    images:["images/kav1.jpeg"],
     address: "12A, New Reddy Street, New Raja Colony, Bhima Nagar, Sangillyandapuram, Tiruchirappalli, Tamil Nadu 620001"
 },
 {
     name: "Emily Technical Institute",
     category: "other",
     details: "Typewriting & Technical Skill Training",
-    images:["emi1.jpeg","emi2.jpeg"],
+    images:["images/emi1.jpeg","images/emi2.jpeg"],
     address: "No. A23, Kajamian School Complex, TVS Toll Gate Road, Near JMC Gate, Kaja Nagar, Tiruchirappalli, Tamil Nadu 620020."
 },
 {
@@ -80,55 +80,55 @@ const institutes = [
     name: "Bharathi Typewriting Institute",
     category: "other",
     details: "Typewriting & Office Skill Training",
-    images:["bh1.jpeg","bh2.jpeg"],
+    images:["images/bh1.jpeg","images/bh2.jpeg"],
     address: "2nd Floor, AB Complex, Vayalur Road, Srinivasa Nagar North, Tiruchirappalli, Tamil Nadu 620017"
 },
 {
     name: "Sri Typewriting Institute",
     category: "other",
     details: "Typewriting & Skill Development",
-    images:["sri1.jpeg"],
+    images:["images/sri1.jpeg"],
     address: "No. 39H1, Opposite Bismi Furniture, Madurai Main Road, Edamalaipattipudur, Tiruchirappalli, Tamil Nadu 620012"
 },
 {
     name: "Azad Typewriting Institute",
     category: "other",
     details: "Typewriting & Typing Practice",
-    images:["az1.jpeg","az2.jpeg"],
+    images:["images/az1.jpeg","images/az2.jpeg"],
     address: "Palakarai Area, Tiruchirappalli, Tamil Nadu"
 },
 {
     name: "Trichy Commercial College",
     category: "other",
     details: "Typewriting, Commerce & Office Skills",
-    images:["ttc1.jpeg"],
+    images:["images/ttc1.jpeg"],
     address: "Tiruchirappalli, Tamil Nadu"
 },
 {
     name: "Sri Meenakshi Technical Institute",
     category: "other",
     details: "Typing & Technical Skills Training",
-    images:["min1.jpeg"],
+    images:["images/min1.jpeg"],
     address: "50, Nachiyar Rd, near Police Station Bus Stop, Woraiyur, Tiruchirappalli, Tamil Nadu 620003"
 },
 {
     name: "J.G. Naidu Technical Institute",
     category: "other",
     details: "Typing Services & Skill Development",
-    images:["jg1.jpeg"],
+    images:["images/jg1.jpeg"],
     address: "3/2, 23, Indira Street, Golden Rock, K Ambikapuram, Ponmalai, Tiruchirappalli, Tamil Nadu 620010"
 },
 {
     name: "Tharini Typewriting Institute",
     category: "other",
     details: "Typewriting Coaching & Typing",
-    images:["thar1.jpeg"],
+    images:["images/thar1.jpeg"],
     address: "12, Kovalan Street, near Loco Shed, M.R. Radha Colony, Senthaneerpuram, Ariyamangalam, Tiruchirappalli, Tamil Nadu 620004"
 },
 {
     name: "Sujaa Typewriting Institute",
     category: "other",
-    details: "Typing Classes & Typewriting",images:["suj1.jpeg"],
+    details: "Typing Classes & Typewriting",images:["images/suj1.jpeg"],
     address: "37, Hirudayapuram, Palakarai, Tiruchirappalli, Tamil Nadu 620001"
 },
 {
@@ -140,7 +140,7 @@ const institutes = [
 {
     name: "Sri Jaya Typewriting Institute",
     category: "other",
-    details: "Typewriting & Learning Center",images:["jaya1.jpeg"],
+    details: "Typewriting & Learning Center",images:["images/jaya1.jpeg"],
     address: "No.7, Heber Rd, Bhima Nagar, Sangillyandapuram, Tiruchirappalli, Tamil Nadu 620001"
 },
 {
